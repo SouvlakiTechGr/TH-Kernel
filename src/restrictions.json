@@ -1,0 +1,17 @@
+[
+    
+    {
+        "_comment":"Restrict commands to certain channel(s).",
+        "exampleCommandName": ["000000000000000000", "000000000000000000"]
+    },
+    {
+        "_comment":"Disable commands.",
+        "githubPull": true,
+        "lockChannel": true,
+        "unlockChannel": true
+    },
+    {
+        "_comment":"Essential commands.",
+        "exampleCommandName": true
+    }
+]
