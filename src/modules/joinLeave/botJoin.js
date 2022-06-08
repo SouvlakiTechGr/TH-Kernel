@@ -11,7 +11,7 @@ module.exports = {
               }
             })
                 const newserverembed = new Discord.MessageEmbed()
-                  .setDescription('Hello! Thanks for adding me to your server! My name is **OrangeEcho Stable** . \nStart by configuring me to better suit your server like telling me the modlog channels! To do that, run `*setup` . My prefix is `*` . \nCurrently the bot has only a few commands, but don\'t worry! There will soon be more. \nTo give suggestions for the bot, run `*suggestion [suggestion]` and the suggestion will be sent to the bot owners. \nCheck out our currency system too! It\'s currently simple, but don\'t worry! More will be added.')
+                  .setDescription('Hello! Thanks for adding me to your server! My name is **' + Distro + '** . \nStart by configuring me to better suit your server like telling me the modlog channels! To do that, run `*setup` . My prefix is `*` . \nCurrently the bot has only a few commands, but don\'t worry! There will soon be more. \nTo give suggestions for the bot, run `*suggestion [suggestion]` and the suggestion will be sent to the bot owners. \nCheck out our currency system too! It\'s currently simple, but don\'t worry! More will be added.')
                   .addFields(
                     { name: 'Links', value: 'Support Server: https://discord.gg/Mdyjzvf \nInvite: <https://discordapp.com/oauth2/authorize?client_id=714001186897788934&scope=bot&permissions=2146958847>'}
                   )
