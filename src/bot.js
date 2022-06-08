@@ -19,7 +19,8 @@ const {
 	MessageEmbed, DiscordAPIError
 } = require('discord.js')
 
-version = '1.0.0-1'
+kversion = '1.0.0-3'
+version = ''
 codename = ''
 errorcount = 0
 safemode = false
