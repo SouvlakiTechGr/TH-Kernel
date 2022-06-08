@@ -3,7 +3,7 @@
     "//2": "https://docs.npmjs.com/files/package.json",
     "//3": "updating this file will download and update your packages",
     "name": "th-kernel",
-    "version": "1.0.0-1",
+    "version": "1.0.0-3",
     "description": "An open-source kernel created for Threshold bot, based on OrangeEcho",
     "main": "bot.js",
     "scripts": {
