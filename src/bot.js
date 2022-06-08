@@ -19,7 +19,7 @@ const {
 	MessageEmbed, DiscordAPIError
 } = require('discord.js')
 
-kversion = '1.0.0-3'
+kversion = '1.0.0-4'
 version = ''
 codename = ''
 errorcount = 0
