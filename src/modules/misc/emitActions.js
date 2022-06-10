@@ -39,7 +39,7 @@ module.exports = {
             var date = today.getMonth()+1+'-'+(today.getDate())+'-'+today.getFullYear();
             var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
             var dateTime = date+' '+time;
-            var footertext = 'botOS '+ version +'\nCodename: '+ codename +'\nRemember to wash your hands regularly!\nStay safe during the COVID-19 period!'
+            var footertext = Distro + ' ' + version +'\nCodename: '+ codename +'\nRemember to wash your hands regularly!\nStay safe during the COVID-19 period!'
             const StartupEmbed = new Discord.MessageEmbed()
                 .setColor('#00FF00')
                 .setTitle('Bot Started')
