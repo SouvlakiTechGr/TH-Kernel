@@ -3,15 +3,18 @@
     "//2": "https://docs.npmjs.com/files/package.json",
     "//3": "updating this file will download and update your packages",
     "name": "th-kernel",
-    "version": "1.0.0-5",
+    "version": "1.0.1-1",
     "description": "An open-source kernel created for Threshold bot, based on OrangeEcho",
     "main": "bot.js",
     "scripts": {
         "start": "node bot.js"
     },
     "dependencies": {
+        "@discordjs/builders": "^0.15.0",
+        "@discordjs/rest": "^0.5.0",
         "@discordjs/voice": "^0.10.0",
         "better-sqlite3": "^7.1.2",
+        "discord-api-types": "^0.33.5",
         "discord.js": "^13.8.0",
         "node-fetch": "^2.6.1",
         "quick.db": "^7.1.3"

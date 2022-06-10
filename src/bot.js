@@ -19,7 +19,7 @@ const {
 	MessageEmbed, DiscordAPIError
 } = require('discord.js')
 
-kversion = '1.0.0-5'
+kversion = '1.0.1-1'
 version = ''
 codename = ''
 errorcount = 0
@@ -256,6 +256,9 @@ getCommandList = function(modCheck, botManagerCheck, miscCheck, configCheck, bot
 //Commands
 const commandHandler = require('./modules/commandHandling/commandHandling.js')
 commandHandler.execute(client)
+
+const slashCommands = require('./modules/commandHandling/slashCommands')
+slashCommands.execute(client)
 
 process.on('unhandledRejection', error => console.error('Uncaught Promise Rejection', error));
 
