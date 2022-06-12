@@ -257,7 +257,7 @@ getCommandList = function(modCheck, botManagerCheck, miscCheck, configCheck, bot
 const commandHandler = require('./modules/commandHandling/commandHandling.js')
 commandHandler.execute(client)
 
-const slashCommands = require('./modules/commandHandling/slashCommands')
+const slashCommands = require('./modules/commandHandling/slashCommands.js')
 slashCommands.execute(client)
 
 process.on('unhandledRejection', error => console.error('Uncaught Promise Rejection', error));
